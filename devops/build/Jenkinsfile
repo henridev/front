@@ -1,0 +1,39 @@
+pipeline{
+	agent {
+		kubernetes {
+			inheritFrom 'docker'
+		}
+	}
+	options {
+		timeout(time: 10, unit: 'MINUTES')
+		buildDiscarder(logRotator(artifactDaysToKeepStr: '10', artifactNumToKeepStr: '1', daysToKeepStr: '5', numToKeepStr: '5'))
+    // Disable concurrent builds. It will wait until the pipeline finish before start a new one
+    disableConcurrentBuilds()
+	}
+	environment {
+		reactDir = 'smart-tracer-web'
+	}
+	stages {
+		stage ('Build WEB') {
+			steps {
+				dir('smart-tracer-web'){
+					script {
+						container('docker') {
+							def props
+							props = readJSON file: 'package.json'
+							env.V = props.version
+							def VER
+							VER = "${V}-${env.BUILD_NUMBER}"
+							def dockerfile_path = 'devops/build/Dockerfile'
+							docker.withRegistry('https://530219596323.dkr.ecr.eu-west-3.amazonaws.com', 'ecr:eu-west-3:aws_smtr_jenkins'){
+								def image = docker.build("smtr/front:${VER}","--rm -f ${dockerfile_path} --network=host .")
+								image.push()
+								image.push('latest')
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="Group_1186" data-name="Group 1186" transform="translate(-318 -392)">
+    <circle id="Ellipse_31" data-name="Ellipse 31" cx="8.5" cy="8.5" r="8.5" transform="translate(318 392)" fill="#0a0082"/>
+    <circle id="Ellipse_32" data-name="Ellipse 32" cx="8.5" cy="8.5" r="8.5" transform="translate(337 392)" fill="#0a0082"/>
+    <circle id="Ellipse_33" data-name="Ellipse 33" cx="8.5" cy="8.5" r="8.5" transform="translate(318 411)" fill="#0a0082"/>
+    <circle id="Ellipse_34" data-name="Ellipse 34" cx="8.5" cy="8.5" r="8.5" transform="translate(337 411)" fill="#0a0082"/>
+    <text id="_1" data-name="1" transform="translate(318 398)" fill="#fff" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="6.344" y="9">1</tspan></text>
+    <text id="_3" data-name="3" transform="translate(318 417)" fill="#fff" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="6.344" y="9">3</tspan></text>
+    <text id="_4" data-name="4" transform="translate(337 398)" fill="#fff" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="6.344" y="9">4</tspan></text>
+    <text id="_9" data-name="9" transform="translate(337 417)" fill="#fff" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="6.344" y="9">9</tspan></text>
+  </g>
+</svg>

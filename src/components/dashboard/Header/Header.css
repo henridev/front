@@ -1,0 +1,122 @@
+.dashboard-header-container {
+  background-color: white;
+  filter: drop-shadow(0px 0px 8px #00000029);
+  width: 100%;
+  max-height: 150px;
+  position: sticky;
+  top: var(--nav-height);
+  z-index: 2;
+  max-width: none;
+}
+
+.dashboard-header > .searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* cards with status counts */
+.dashboard-header > .searchbar .count-container {
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dashboard-header > .searchbar .count-container > .count.card {
+  display: flex;
+  border: 0;
+  width: 110px;
+  min-width: 90px;
+}
+
+.count.card > .card-body {
+  border-bottom: 2px solid transparent;
+}
+
+.count.card > .card-body.bottom-pink {
+  border-color: var(--text-color-pink) !important;
+}
+
+.count.card > .card-body.bottom-green {
+  border-color: var(--text-color-green) !important;
+}
+
+.count.card > .card-body.bottom-grey {
+  border-color: var(--text-color-gray) !important;
+}
+
+.count.card > .card-body > p.card-text {
+  font-size: 1rem;
+}
+
+/* search input section */
+.dashboard-header > .searchbar .search-input {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.dashboard-header > .searchbar .search-input .btn {
+  background-color: white;
+}
+
+.dashboard-header > .searchbar .search-input #searchinput-glass {
+  fill: '#9a9a9a';
+}
+
+#search-btn,
+#search-btn:hover {
+  background-color: #ffffff;
+  border-color: #ced4da;
+}
+
+/* history section */
+.dashboard-header > .searchbar .dashed-separator {
+  margin-left: auto;
+  margin-right: 2rem;
+  height: 50px;
+  border-collapse: collapse;
+  width: 0;
+  border: 1px dashed #707070;
+}
+
+/* responsiveness */
+@media (max-width: 1100px) {
+  .searchbar > * {
+    margin-bottom: 0;
+  }
+  .searchbar {
+    margin-left: 0;
+  }
+  .searchbar span {
+    margin: 0 auto;
+  }
+  .title-big {
+    font-size: 2.285711rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .searchbar {
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    padding-top: 1rem;
+  }
+
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .title-big {
+    font-size: 2.285711rem;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .dashboard-header > .searchbar section {
+    justify-content: center;
+  }
+}

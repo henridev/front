@@ -1,0 +1,115 @@
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+.title-big {
+  font-size: 3.5rem;
+}
+
+.metro-line {
+  font-size: 1.5rem;
+}
+
+h1,
+.h1 {
+  font-size: 2.125rem;
+}
+
+h2,
+.h2 {
+  font-size: 2rem;
+}
+
+h3,
+.h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h4,
+.h4 {
+  font-size: 1rem;
+}
+
+h5,
+.h5 {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+p,
+.p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.75rem;
+}
+
+.font-paris {
+  font-family: 'Parisine Ptf', Arial, Helvetica, sans-serif;
+}
+
+.font-paris-lighter {
+  font-family: 'Parisine Ptfcl, bold', Arial, Helvetica, sans-serif;
+}
+
+.font-paris-italic {
+  font-style: italic;
+}
+
+.font-paris-bold {
+  font-family: 'Parisine Ptf, Bold', Arial, Helvetica, sans-serif;
+}
+
+.font-montserrat {
+  font-family: 'Monteserrat', Arial, Helvetica, sans-serif;
+}
+
+.font-montserrat-bold {
+  font-family: 'Montserrat, Bold', Arial, Helvetica, sans-serif;
+}
+
+.font-ubuntu-bold {
+  font-family: 'Ubuntu, Bold', Arial, Helvetica, sans-serif;
+}
+
+.font-grey {
+  color: var(--text-color-grey);
+}
+
+.font-pink {
+  color: var(--text-color-pink);
+}
+
+.font-green {
+  color: var(--text-color-green);
+}
+
+.font-orange {
+  color: var(--text-color-orange);
+}
+
+.font-blue {
+  color: var(--text-color-blue);
+}
+
+.font-black {
+  color: black;
+}
+
+.font-white {
+  color: white !important;
+}
+
+.font-grey-darker {
+  color: var(--text-color-grey-darker);
+}
+
+.font-light-black {
+  color: var(--text-color-light-black);
+}

@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Parisine Ptf, Bold';
+  font-weight: bold;
+  src: local('Parisine Ptf, Bold'), url(../fonts/PARISINEPTF-BOLD.OTF) format('opentype');
+}
+
+@font-face {
+  font-family: 'Parisine Ptf, Regular';
+  font-weight: regular;
+  src: local('Parisine Ptf'), url(../fonts/PARISINEPTF-REGULAR.OTF) format('opentype');
+}
+
+@font-face {
+  font-family: 'Parisine Pronar, Bold';
+  font-weight: bold;
+  src: local('Parisine Pronar, Bold'), url(../fonts/PARISINEPRONAR-BOLD.OTF) format('opentype');
+}
+
+@font-face {
+  font-family: 'Parisine Pronar';
+  src: local('Parisine Pronar'), url(../fonts/PARISINEPRONAR-REGULAR.OTF) format('opentype');
+}
+
+@font-face {
+  font-family: 'Parisine Ptfcl, Bold';
+  font-weight: bold;
+  src: local('Parisine Ptfcl, Bold'), url(../fonts/PARISINEPTFCL-BOLD.OTF) format('opentype');
+}
+
+@font-face {
+  font-family: 'Parisine Ptfcl';
+  src: local('Parisine Ptfcl'), url(../fonts/PARISINEPTFCL-REGULAR.OTF) format('opentype');
+}
+
+@font-face {
+  font-family: 'Parisine Ptfso, Bold';
+  font-weight: bold;
+  src: local('Parisine Ptfso, Bold'), url(../fonts/PARISINEPTFSO-BOLD.OTF) format('opentype');
+}
+
+@font-face {
+  font-family: 'Parisine Ptfso';
+  src: local('Parisine Ptfso'), url(../fonts/PARISINEPTFSO-REGULAR.OTF) format('opentype');
+}
+
+@font-face {
+  font-family: 'Monteserrat';
+  src: local('Monteserrat'), url(../fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat, Bold';
+  font-weight: bold;
+  src: local('Montserrat, Bold'), url('../fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu, Bold';
+  font-weight: bold;
+  src: local('Ubuntu, Bold'), url('../fonts/Ubuntu-Bold.ttf') format('truetype');
+}

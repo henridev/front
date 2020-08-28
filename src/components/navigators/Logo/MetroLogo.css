@@ -1,0 +1,107 @@
+.logo-out {
+  height: 75px;
+  width: 75px;
+  border: 6px solid var(--bg-color-blue);
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  top: 0px;
+  right: 0;
+  text-align: center;
+}
+
+.logo-in {
+  height: 40px;
+  width: 40px;
+  letter-spacing: -2px;
+}
+
+#nav-phone .logo-out {
+  top: -5px;
+  height: 80px;
+  width: 80px;
+}
+
+#nav-phone .logo-in {
+  height: 40px;
+  width: 40px;
+}
+
+/* metro-rer-lines styles */
+.line-1 {
+  background-color: var(--line-color-1);
+  color: var(--line-1-number-color);
+}
+.line-2 {
+  background-color: var(--line-color-2);
+}
+.line-3 {
+  background-color: var(--line-color-3);
+}
+.line-3bis {
+  background-color: var(--line-color-3bis);
+}
+.line-4 {
+  background-color: var(--line-color-4);
+}
+.line-5 {
+  background-color: var(--line-color-5);
+  color: var(--line-5-number-color);
+}
+.line-6 {
+  background-color: var(--line-color-6);
+  color: var(--line-1-number-color);
+}
+.line-7 {
+  background-color: var(--line-color-7);
+}
+.line-7bis {
+  background-color: var(--line-color-7bis);
+  color: var(--line-7bis-number-color);
+}
+.line-8 {
+  background-color: var(--line-color-8);
+  color: var(--line-8-number-color);
+}
+.line-9 {
+  background-color: var(--line-color-9);
+  color: var(--line-9-number-color);
+}
+.line-10 {
+  background-color: var(--line-color-10);
+  color: var(--line-10-number-color);
+}
+.line-11 {
+  background-color: var(--line-color-11);
+}
+.line-12 {
+  background-color: var(--line-color-12);
+}
+.line-13 {
+  background-color: var(--line-color-13);
+  color: var(--line-13-number-color);
+}
+.line-14 {
+  background-color: var(--line-color-14);
+}
+.line-a {
+  border-color: var(--line-color-a);
+  color: var(--line-color-a);
+}
+.line-b {
+  border-color: var(--line-color-b);
+  color: var(--line-color-b);
+}
+.line-c {
+  border-color: var(--line-color-c);
+  color: var(--line-color-c);
+}
+.line-d {
+  border-color: var(--line-color-d);
+  color: var(--line-color-d);
+}
+.line-e {
+  border-color: var(--line-color-e);
+  color: var(--line-color-e);
+}

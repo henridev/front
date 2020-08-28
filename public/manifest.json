@@ -1,0 +1,40 @@
+{
+  "lang": "fr",
+  "short_name": "Smart Tracer",
+  "description": "L'application Smart Tracer est l'outil de suivi en temps réel du traçage et du nettoyage des trains et stations.",
+  "name": "Smart Tracer",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/in-game-1x.jpg",
+      "sizes": "640x480",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "screenshots/in-game-2x.jpg",
+      "sizes": "1280x920",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0A0082",
+  "background_color": "#ffffff"
+}

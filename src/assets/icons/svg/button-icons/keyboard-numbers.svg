@@ -1,0 +1,21 @@
+<svg id="Component_95_3" data-name="Component 95 – 3" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+    viewBox="0 0 36 36">
+    <circle id="Ellipse_31" data-name="Ellipse 31" cx="8.5" cy="8.5" r="8.5" fill="#0a0082" />
+    <circle id="Ellipse_32" data-name="Ellipse 32" cx="8.5" cy="8.5" r="8.5" transform="translate(19)" fill="#0a0082" />
+    <circle id="Ellipse_33" data-name="Ellipse 33" cx="8.5" cy="8.5" r="8.5" transform="translate(0 19)"
+        fill="#0a0082" />
+    <circle id="Ellipse_34" data-name="Ellipse 34" cx="8.5" cy="8.5" r="8.5" transform="translate(19 19)"
+        fill="#0a0082" />
+    <text id="_1" data-name="1" transform="translate(0 3)" fill="#fff" font-size="8" font-family="SegoeUI, Segoe UI">
+        <tspan x="6.344" y="9">1</tspan>
+    </text>
+    <text id="_3" data-name="3" transform="translate(0 22)" fill="#fff" font-size="8" font-family="SegoeUI, Segoe UI">
+        <tspan x="6.344" y="9">3</tspan>
+    </text>
+    <text id="_4" data-name="4" transform="translate(19 3)" fill="#fff" font-size="8" font-family="SegoeUI, Segoe UI">
+        <tspan x="6.344" y="9">4</tspan>
+    </text>
+    <text id="_9" data-name="9" transform="translate(19 22)" fill="#fff" font-size="8" font-family="SegoeUI, Segoe UI">
+        <tspan x="6.344" y="9">9</tspan>
+    </text>
+</svg>

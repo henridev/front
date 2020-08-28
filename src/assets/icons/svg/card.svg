@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="306" height="358" viewBox="0 0 306 358">
+  <defs>
+    <filter id="Path_665" x="0" y="0" width="306" height="358" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1052" data-name="Group 1052" transform="translate(-424 -226)">
+    <g id="Fond_card" data-name="Fond card" transform="translate(436 238)">
+      <g transform="matrix(1, 0, 0, 1, -12, -12)" filter="url(#Path_665)">
+        <g id="Path_665-2" data-name="Path 665" transform="translate(12 12)" fill="#fff">
+          <path d="M 278 333.5 L 4 333.5 C 2.070083379745483 333.5 0.5 331.929931640625 0.5 330 L 0.5 4 C 0.5 2.070083379745483 2.070083379745483 0.5 4 0.5 L 278 0.5 C 279.929931640625 0.5 281.5 2.070083379745483 281.5 4 L 281.5 330 C 281.5 331.929931640625 279.929931640625 333.5 278 333.5 Z" stroke="none"/>
+          <path d="M 4 1 C 2.345794677734375 1 1 2.345794677734375 1 4 L 1 330 C 1 331.6542053222656 2.345794677734375 333 4 333 L 278 333 C 279.6542053222656 333 281 331.6542053222656 281 330 L 281 4 C 281 2.345794677734375 279.6542053222656 1 278 1 L 4 1 M 4 0 L 278 0 C 280.2091369628906 0 282 1.790863037109375 282 4 L 282 330 C 282 332.2091369628906 280.2091369628906 334 278 334 L 4 334 C 1.790863037109375 334 0 332.2091369628906 0 330 L 0 4 C 0 1.790863037109375 1.790863037109375 0 4 0 Z" stroke="none" fill="#e2e2e3"/>
+        </g>
+      </g>
+      <g id="Fond_card-2" data-name="Fond card" transform="translate(0 254)">
+        <g id="Path_344" data-name="Path 344" fill="#fafafb">
+          <path d="M 278 79.5 L 4 79.5 C 2.070107221603394 79.5 0.5 77.92989349365234 0.5 76 L 0.5 4.5 L 281.5 4.5 L 281.5 76 C 281.5 77.92989349365234 279.9299011230469 79.5 278 79.5 Z" stroke="none"/>
+          <path d="M 1 5 L 1 76 C 1 77.65421295166016 2.345794677734375 79 4 79 L 278 79 C 279.6542053222656 79 281 77.65421295166016 281 76 L 281 5 L 1 5 M 0 4 L 282 4 L 282 76 C 282 78.20914459228516 280.2091369628906 80 278 80 L 4 80 C 1.790863037109375 80 0 78.20914459228516 0 76 L 0 4 Z" stroke="none" fill="#e2e2e3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
