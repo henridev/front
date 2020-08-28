@@ -1,0 +1,54 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# **/ will ignore any files in directories or files matchingmatching 
+
+# logs
+/smart-tracer-*/logs
+
+# dependencies
+node_modules
+
+/smart-tracer-*/package-lock.json
+/smart-tracer-*/db/package-lock.json
+/smart-tracer-*/__mocks__/package-lock.json
+/smart-tracer-*/node_modules
+/smart-tracer-*/db/node_modules
+/smart-tracer-*/__mocks__/node_modules
+/smart-tracer-*/.pnp
+**/.pnp.js
+
+
+# testing
+**/coverage
+
+# production
+/smart-tracer-*/build
+/smart-tracer-*/dist
+
+# environment variables
+.env
+**/.env
+**/.env.test
+**/.env.production
+.env.local
+.env.development
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+
+# docker
+**/docker-compose.yaml
+**/docker-compose.yml
+/smart-tracer-*/docker-compose.yml
+/smart-tracer-*/docker-compose.yaml
+docker-compose.yml
+**/wso2.dockerfile
+
+# misc
+.DS_Store
+mock-api
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/settings.json
+/smart-tracer-api/__mocks__/data/*.json
